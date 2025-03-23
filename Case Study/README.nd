@@ -1,0 +1,53 @@
+# **SQL Case Studies Repository** 📊  
+
+## **📌 Overview**  
+This repository contains SQL case studies demonstrating practical database operations and business analytics using SQL. The datasets cover **sales, marketing, employees, and departmental records**, showcasing:  
+✔ **Data Retrieval & Filtering** (`SELECT`, `WHERE`, `HAVING`)  
+✔ **Joins & Set Operations** (`INNER JOIN`, `LEFT JOIN`, `UNION`)  
+✔ **Aggregation & Window Functions** (`GROUP BY`, `RANK()`, `DENSE_RANK()`)  
+✔ **Stored Procedures, Views & Triggers**  
+
+---
+
+## **📂 Case Studies**  
+
+### **1️⃣ Case Study: Product and Sales Data Analysis**  
+📌 **Objective**: Analyzing sales, marketing, and product data.  
+
+📌 **Key Concepts Covered**:  
+- **Basic SQL Operations**: `SELECT`, `COUNT()`, `AVG()`, `SUM()`  
+- **Data Filtering**: `WHERE`, `HAVING`, `LIKE`, `BETWEEN`  
+- **Table Joins**: `INNER JOIN`, `LEFT JOIN`  
+- **Aggregation**: `GROUP BY`, `ORDER BY`  
+- **Window Functions**: `DENSE_RANK()`  
+- **Stored Procedures & UDFs**  
+
+📌 **Key Queries**:  
+✔ Displaying total sales and profits based on conditions.  
+✔ Joining `Fact`, `Product`, and `Location` tables for data retrieval.  
+✔ Using `CASE` statements for data categorization.  
+✔ Demonstrating transactions (`ROLLBACK`, `COMMIT`).  
+
+📌 **File**: (`CaseStudy1.sql`)[https://github.com/navya99g/Exploration_Data_Analysis]
+
+---
+
+### **2️⃣ Case Study: Employee and Department Data Analysis**  
+📌 **Objective**: Analyzing employee and department records.  
+
+📌 **Key Concepts Covered**:  
+- **Employee-Department Relations**  
+- **Joins & Set Operators**: `INNER JOIN`, `LEFT JOIN`, `RIGHT JOIN`, `UNION`  
+- **Aggregations**: Salary statistics (`SUM()`, `AVG()`, `MAX()`, `MIN()`)  
+- **Window Functions**: `ROW_NUMBER()`, `DENSE_RANK()`  
+- **Subqueries & Data Modifications**  
+
+📌 **Key Queries**:  
+✔ Listing employees with department and job details.  
+✔ Ranking employees by salary using `ROW_NUMBER()`.  
+✔ Fetching highest-paid employees using subqueries.  
+✔ Performing **UPDATE** and **DELETE** operations with rollback.  
+
+📌 **File**: `CaseStudy2.sql`  
+
+---
